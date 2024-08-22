@@ -1,0 +1,44 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.load {
+    color: #4fbfa8;
+    background-color: #ffffff;
+    border: 1px solid #4fbfa8;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    padding: 10px;
+
+    &:hover {
+        background: #4fbfa8;
+        color: #ffffff;
+        border-color: #4fbfa8;
+    }
+}
+
+.sort {
+    color: #fff;
+    background-color: #004E64;
+    border-color: #004E64;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 10px;
+
+    &:hover {
+        background: #003D4F;
+        color: #ffffff;
+        border-color: #003D4F;
+    }
+}
